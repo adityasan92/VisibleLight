@@ -3,7 +3,7 @@ from flask_restful import Resource, Api, reqparse
 import logging
 import sys
 
-app = Flask(__name__,  static_url_path='')
+app = Flask(__name__)
 api = Api(app)
 parser = reqparse.RequestParser()
 
